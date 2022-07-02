@@ -1,11 +1,17 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kylekatarnls/phpws.git"
+        }
+    ],
     "name": "jclg/php-slack-bot",
     "description": "Slack bot user written in PHP",
     "homepage": "https://github.com/jclg/php-slack-bot",
     "license": "MIT",
     "require": {
-        "semako/phpws": "1.0.1",
-        "react/http": "^0.4",
+        "semako/phpws": "dev-compatibility as 1.0.1",
+        "react/http": "^0.4 || ^1.6",
         "ext-curl": "*"
     },
     "authors": [
